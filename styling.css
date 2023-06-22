@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin-top: 60px;
+   background-color: rgb(192, 182, 182);   
+   font-family: 'Roboto';
+   padding-top: 30px;
+   height: 3000px;
+   
+}
+
+
+.header{
+    
+    text-align: center;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+    vertical-align: middle;
+  
+}
+
+ul li {
+   display: inline-block;
+   margin-right: 10px;
+   margin-top: 10px;
+   text-decoration: none;
+   width: 100px;
+   font-weight: 600;
+   color: rgb(24, 23, 23);
+   font-family: 'Roboto';
+   font-size: small;
+}
+
+.logo{
+    color: black;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    background-size: cover;
+    width: 80px;
+    margin-left: 100px;  
+}
+
+.logo-div{
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+.brand{
+    height: 40px;
+    width: 50px;
+    margin-right: 100px;
+    margin-top: 17px;
+    cursor: pointer;
+    mix-blend-mode: multiply;   
+}
+.cart-button{
+    position: relative;
+    margin-right: 30px;
+    margin-left: 0px;
+    width: 150px;
+} 
+.cart-size{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 12px;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    color: azure;
+    font-weight: bolder;
+    z-index: 1;
+    margin-right: 40px;
+    text-align: center;
+    padding-top: 3px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.intro{
+    text-align: center;
+     margin-top: 100px;
+    color: black;
+    line-height: 10px;
+}
+.middle-class{
+    margin-right: 200px;
+    vertical-align: middle;
+    margin-top: 8px;
+}  
+
+.sign-up-button{
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 1ms;
+    font-family: 'Roboto';
+    padding: 8px;
+    font-size: small;
+}   
+
+.sign-up-button:hover{
+    transform: translateY(1px);
+    opacity: 0.5;
+}
+.cart{
+    margin-top: 40px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    width: 150px;
+    position: relative;
+    transition: transform 0.2s
+}
+.cart:hover{
+    transform: scale(1.1);
+}
+
+.Basketball{
+   height: 80px;
+   width: 80px;
+   margin-left: 20px;
+   
+  
+}
+.product-price{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-family: 'Roboto';
+}   
+
+.product-name{
+    margin-left: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    font-size: smaller;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    
+}
+.Add-button{
+  border-radius: 2px;
+  margin-top: 6px;
+  text-align: center;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color: rgb(231, 70, 12);
+  color: white;
+  border-style: none;
+  width: 130px;
+  cursor: pointer;
+}
+
+.Add-button:hover{
+    opacity: 0.8;
+}
+
+
+.General-div{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    margin-right: 20px;
+    column-gap: 65px; 
+    margin-top: 10px;
+   
+}
+
+.side-bar{
+    height: 360px;
+    width: 230px;
+    background-color: rgb(252, 249, 249);
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius:  20px;
+    margin-right: 20px;
+    margin-top:20px;
+    
+}  
+.category{
+    
+    font-size: small;
+    font-weight: 300;
+    font-family: 'Roboto';
+    line-height: 8px;
+    margin-top: 30px
+}
+.Group-of-category{
+    text-align: start;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+input[type=checkbox]{
+   accent-color: black;
+   cursor: pointer;
+}
+
+input[type=text]{
+margin-left: 8px;
+margin-top: 20px;
+width: 500px;
+height: 40px;
+border-radius: 4px;
+border-width: 1px;
+border-color: grey;
+border-style: solid;
+font-size: medium;
+outline: none;
+}
+
+.Category-Heading{
+  margin-top: 2px;
+  font-weight: bold;
+}  
+.Search-button{
+    height: 43px;
+    width: 90px;
+    font-size: small;
+    border-radius: 4px;
+    border-style: none;
+    border-width: 1px;
+    padding: 3px;
+    background-color: rgb(240, 115, 26);
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-left: 4px;
+    cursor: pointer;
+   vertical-align: middle;
+}   
+::placeholder{
+    font-size: medium;
+    font-family: 'Roboto';
+    padding-left: 8px;
+    font-weight: 700;
+}
+.Search-button:hover{
+    opacity: 0.7;
+}
+ul li a {
+    list-style: none;
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+
+.view-cart-tooltip{
+    position: absolute;
+    background-color: rgb(56, 53, 53);
+    color: azure;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    font-weight: 500;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    font-family: sans-serif;
+    transition: opacity 0.2s;
+}
+.brand2{
+   position: relative;  
+   height: 20px;
+   width: 10px; 
+   
+}
+
+.brand2:hover .view-cart-tooltip {
+    opacity: 1;
+}
+
+.Added-to-cart{
+ color: rgb(9, 139, 9);
+ margin-left: 15px;
+ font-size: 14px;
+ font-weight: 600;
+}
+.fa-solid{
+    color: green;
+    margin-left: 2px;
+}
